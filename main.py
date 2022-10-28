@@ -18,8 +18,8 @@ def student2haiku():
     return["Mijn naam is Ryan Schorel","Ik ben twee meter en aan half lang", " Mijn broer is korter lol"]
 
 haikus = [
-    basicHaiku()
-    student1haiku()
+    basicHaiku(),
+    student1haiku(),
     student2haiku()
 ]
 
