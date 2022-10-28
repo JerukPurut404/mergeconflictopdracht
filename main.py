@@ -10,10 +10,14 @@ oldgreeting.greet()
 def basicHaiku():
     return ["Toward those big trees","We saw a bird descending","On a night in spring."]
 
+def student1haiku():
+    return ["Jouw ogen zijn als vuur", "\nHet verbrandt mijn hart door en door", "\nDe hitte is voor altijd"]  
+
 #zet hier je haiku functie neer, zie https://github.com/progsen/haikugitopdracht voor ideeen
 
 haikus = [
     basicHaiku()
+    student1haiku()
 ]
 
 def randomHaiku():
