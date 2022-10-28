@@ -1,3 +1,3 @@
 def greet():
-    greeting="hello welcome to this exersise!"
+    greeting="hello welcome to this exercise"
     print(greeting)
