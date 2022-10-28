@@ -1,3 +1,4 @@
+import re
 import oldgreeting
 import random
 print("merge oefening leuk!")
@@ -13,11 +14,13 @@ def basicHaiku():
 def student1haiku():
     return ["Jouw ogen zijn als vuur", "\nHet verbrandt mijn hart door en door", "\nDe hitte is voor altijd"]  
 
-#zet hier je haiku functie neer, zie https://github.com/progsen/haikugitopdracht voor ideeen
+def student2haiku():
+    return["Mijn naam is Ryan Schorel","Ik ben twee meter en aan half lang", " Mijn broer is korter lol"]
 
 haikus = [
     basicHaiku()
     student1haiku()
+    student2haiku()
 ]
 
 def randomHaiku():
